@@ -1,0 +1,8 @@
+com\giftcard\exceptions\CustomErrorController.class
+com\giftcard\exceptions\ErrorJson.class
+com\giftcard\controller\GiftCardController.class
+com\giftcard\model\GiftcardInfo.class
+com\giftcard\service\GiftCardService.class
+com\svss\model\PaymentSVSSInfo.class
+com\giftcard\exceptions\GiftCardServiceException.class
+com\giftcard\GiftCardApplication.class

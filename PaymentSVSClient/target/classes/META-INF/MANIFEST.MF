@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: PaymentSVSClient
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: lrajanala
+Built-By: Nisum
 Implementation-Vendor-Id: com.paymentsvcc
-Build-Jdk: 1.8.0_161
+Build-Jdk: 1.8.0_152
 Implementation-URL: http://projects.spring.io/spring-boot/PaymentSVSCl
  ient/
 Created-By: Maven Integration for Eclipse
