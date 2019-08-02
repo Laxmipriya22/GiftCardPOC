@@ -58,14 +58,16 @@ public class GiftCardService {
 			throw new GiftCardServiceException("Dozer Mapping Exception... Please verify the mappings. Make sure source object must not be null");
 		}
 	}
-
 	public void updateGiftCard(String id, GiftcardInfo giftcardInfo) {
+		try {
 		final String Geturl = url + id + "/";
 		PaymentSVSSInfo paymentSVSSInfo = dozerBeanMapper.map(giftcardInfo, PaymentSVSSInfo.class);
 		restTemplate.put(Geturl, paymentSVSSInfo);
-
+		}catch (MappingException e) {
+			logger.error(e);
+			throw new GiftCardServiceException("Dozer Mapping Exception... Please verify the mappings. Make sure source object must not be null");	
+		}
 	}
-
 	public void deleteGiftCard(String id) {
 		final String Geturl = url + id + "/";
 		restTemplate.delete(Geturl);
