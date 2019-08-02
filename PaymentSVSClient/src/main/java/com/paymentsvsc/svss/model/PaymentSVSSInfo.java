@@ -1,9 +1,12 @@
 package com.paymentsvsc.svss.model;
 
+import javax.validation.constraints.NotNull;
 
 public class PaymentSVSSInfo {
+	@NotNull
 	private String Id;
 	private String username;
+	@NotNull
 	private String balance;
 	private String phoneNumber;
 	private String dateOfBirth;
