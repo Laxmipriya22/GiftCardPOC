@@ -1,4 +1,4 @@
-C:\Users\Nisum\Desktop\pocProject\GiftCardPOC\PaymentSVSClient\src\main\java\com\springboot\svss\model\PaymentSVSSInfo.java
-C:\Users\Nisum\Desktop\pocProject\GiftCardPOC\PaymentSVSClient\src\main\java\com\springboot\SvSPaymentsApplication.java
-C:\Users\Nisum\Desktop\pocProject\GiftCardPOC\PaymentSVSClient\src\main\java\com\springboot\service\PaymentSVSClient.java
-C:\Users\Nisum\Desktop\pocProject\GiftCardPOC\PaymentSVSClient\src\main\java\com\springboot\controller\PaymentSVSClientController.java
+C:\Users\lrajanala\GiftCardPOC\PaymentSVSClient\src\main\java\com\paymentsvsc\controller\PaymentSVSClientController.java
+C:\Users\lrajanala\GiftCardPOC\PaymentSVSClient\src\main\java\com\paymentsvsc\service\PaymentSVSClient.java
+C:\Users\lrajanala\GiftCardPOC\PaymentSVSClient\src\main\java\com\paymentsvsc\SvSPaymentsApplication.java
+C:\Users\lrajanala\GiftCardPOC\PaymentSVSClient\src\main\java\com\paymentsvsc\svss\model\PaymentSVSSInfo.java
